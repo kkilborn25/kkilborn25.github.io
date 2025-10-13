@@ -17,6 +17,7 @@ p {
     margin-right: 5cm;
 }
 img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
