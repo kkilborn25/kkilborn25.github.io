@@ -17,7 +17,8 @@ p {
     margin-right: 5cm;
 }
 img {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
     width: 200px;
 }
