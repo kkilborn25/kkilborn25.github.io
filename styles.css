@@ -16,3 +16,7 @@ p {
     margin-left: 5cm;
     margin-right: 5cm;
 }
+img {
+    height: 200px;
+    width: 200px;
+}
