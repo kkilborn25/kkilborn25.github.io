@@ -16,13 +16,23 @@ p {
     margin-left: 5cm;
     margin-right: 5cm;
 }
-img {
+.project img {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid rgb(7, 50, 131);
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-    width: 200px;
+    margin: auto;
 }
 h3 {
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+.project p{
+    text-align: center;
+    margin: 15px;
 }
