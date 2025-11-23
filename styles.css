@@ -30,13 +30,13 @@ p {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: lightslategray;
+    background: lightcyan;
     /* rounded corners for the blobs */
     border-radius: 25%;
 }
 .project h3 {
     /* pull the h3 text away from the left blob wall */
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .project img {
     margin: 10px;
