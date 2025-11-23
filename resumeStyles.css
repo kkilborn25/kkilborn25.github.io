@@ -4,5 +4,10 @@
 }
 .heading-name{
     font-size: large;
+    font-weight: bolder;
+}
+.section-title{
+    font-size: medium;
     font-weight: bold;
+    text-decoration: underline;
 }
