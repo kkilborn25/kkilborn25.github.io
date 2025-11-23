@@ -6,6 +6,9 @@
     font-size: xx-large;
     font-weight: bolder;
 }
+.section{
+    border-bottom: 2px solid black;
+}
 .section-title{
     font-size: large;
     font-weight: bold;
