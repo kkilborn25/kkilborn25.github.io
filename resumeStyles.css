@@ -3,7 +3,7 @@
     border-bottom: 2px solid black;
 }
 .heading-name{
-    font-size: large;
+    font-size: xx-large;
     font-weight: bolder;
 }
 .section-title{
@@ -14,4 +14,7 @@
 .section-name{
     font-size: small;
     font-weight: bold;
+}
+.section-reg{
+    font-size: small;
 }
