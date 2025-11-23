@@ -1,13 +1,13 @@
 .heading{
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 .heading-name{
     font-size: xx-large;
     font-weight: bolder;
 }
 .section{
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 .section-title{
     font-size: large;
