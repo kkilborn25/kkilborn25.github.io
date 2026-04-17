@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      New Perspectives on HTML5 and CSS3, 7th Edition
+      Final Project
+
+      Author: Katie Kilborn
+      Date: 7/18/2024  
+
+      Filename:   feed.html
+
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Feedback</title>
+   <link href="forms.css" rel="stylesheet" />
+   <script src="script.js"></script>
+</head>
+
+<section>
+      <h1>Feedback Form</h1>
+	  <h3>Required values are marked with an asterisk(*)</h3>
+		<form id="client" method="post">
+		<fieldset id="clientinfo">
+			<legend>Client Information</legend>
+			<label for="fname">First Name*</label>
+			<input name="fname" id="firstBox" type="text" required="required" />
+			
+			<label for="lname">Last Name*</label>
+			<input name="lname" id="lastBox" type="text" required="required" />
+			
+			<label for="mail">E-mail*</label>
+			<input name="custEmail" id="mail" type="email" required="required" />
+			
+			<label for="gender">Gender*</label>
+			<select name="gender" id="genderBox" type="text" required="required" />
+					<option value="Female">Female</option>
+					<option value="Male">Male</option>
+					<option value="Other">Other</option>
+					<option value="Prefer not to say">Prefer not to say</option>
+				</select>
+			
+			<label for="age">Age*</label>
+			<input name="age" id="ageBox" type="text" required="required" />
+		</fieldset>
+		
+		<form id="feedback" method="post">
+		<fieldset id="feedbackinfo">
+			<legend>Feedback</legend>
+			<label for="rangeBox">How accessible was this webpage?*<br />
+					(1=poor; 5=great)</label> 
+				<input name="Rate" id="rangeBox" type="range"
+					value="3" step="1" min="1" max="5" />
+			
+			<label for="commBox">Enter your feedback here!*</label>
+			<textarea name="custfeed" id="custBox" placeholder="Let us know what we can improve on and what you really enjoyed!" required="required"></textarea>
+		</fieldset>
+		
+		<fieldset id="creditCard">
+			<legend>Would you like to make a contribution?</legend>
+			<fieldset>
+			<label class="cardLabel">
+				<input type="radio" name="cCard"/> <img src="amex.jpg"/>\
+			</label>
+			<label class="cardLabel">
+				<input type="radio" name="cCard"/> <img src="discover.jpg"/>\
+			</label>
+			<label class="cardLabel">
+				<input type="radio" name="cCard"/> <img src="master.jpg"/>\
+			</label>
+			<label class="cardLabel">
+				<input type="radio" name="cCard"/> <img src="visa.jpg"/>\
+			</label>
+		</fieldset>
+		
+		<label for="cardNumber">Credit Card Number</label>
+		<input name="cardNumber" id="cardBox" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$"/>
+		
+		<label>Expiration Date</label>
+		<select id="monthList">
+			<option value="--Month--">--Month--</option>
+			<option value="January (01)">January (01)</option>
+			<option value="February (02)">February (02)</option>
+			<option value="March(03)">March (03)</option>
+			<option value="April (04)">April (04)</option>
+			<option value="May (05)">May (05)</option>
+			<option value="June (06)">June (06)</option>
+			<option value="July (07)">July (07)</option>
+			<option value="August (08)">August (08)</option>
+			<option value="September (09)">September (09)</option>
+			<option value="October (10)">October (10)</option>
+			<option value="November (11)">November (11)</option>
+			<option value="December (12)">December (12)</option>
+		</select>
+		<select id="yearList">
+			<option value="--Year--">--Year--</option>
+			<option value="2024">2024</option>
+			<option value="2025">2025</option>
+			<option value="2026">2026</option>
+			<option value="2027">2027</option>
+			<option value="2028">2028</option>
+			<option value="2029">2029</option>
+			<option value="2030">2030</option>
+		</select>
+		
+		<label for="csc">CSC</label>
+		<input id="cscBox" pattern="^\d{3}$" max="3" placeholder="nnn" />
+		
+	</fieldset>
+	<div id="buttons">
+			<input type="submit" value="Submit My Survey" />
+			<input type="reset" value="Cancel" />
+		</div>
+	</form>
+			
